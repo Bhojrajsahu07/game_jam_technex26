@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ccqj4ljix2mai"
-path="res://.godot/imported/Interiors_Gam_Jam.png-0056f4b5b324cb01f2f5e3cafec3e6c1.ctex"
+uid="uid://kd27yi711pwn"
+path="res://.godot/imported/canned food and drink updated.png-839ed89282ebf1b689bc80648cdf60cf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://levels/Interiors_Gam_Jam.png"
-dest_files=["res://.godot/imported/Interiors_Gam_Jam.png-0056f4b5b324cb01f2f5e3cafec3e6c1.ctex"]
+source_file="res://levels/assets/canned food and drink updated.png"
+dest_files=["res://.godot/imported/canned food and drink updated.png-839ed89282ebf1b689bc80648cdf60cf.ctex"]
 
 [params]
 
