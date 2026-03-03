@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c8iq2bp1wu4b6"
-path="res://.godot/imported/Protagnist_game_jam.png-619507f6edf73f857412bba9bab00a0e.ctex"
+uid="uid://b64f70ab1d25m"
+path="res://.godot/imported/Bob_sit3_16x16.png-dca0f4583eea0bf27f427e3a9b8a99f5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://entities/player/Protagnist_game_jam.png"
-dest_files=["res://.godot/imported/Protagnist_game_jam.png-619507f6edf73f857412bba9bab00a0e.ctex"]
+source_file="res://entities/player/Bob_sit3_16x16.png"
+dest_files=["res://.godot/imported/Bob_sit3_16x16.png-dca0f4583eea0bf27f427e3a9b8a99f5.ctex"]
 
 [params]
 
