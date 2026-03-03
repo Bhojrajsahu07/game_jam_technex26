@@ -561,8 +561,7 @@ radius = 20.024984
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D" unique_id=1999485766]
 sprite_frames = SubResource("SpriteFrames_k3n4f")
-animation = &"run_left"
-frame_progress = 0.5074991
+animation = &"use_phone"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=2038754341]
 shape = SubResource("CircleShape2D_gmffv")
