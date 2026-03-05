@@ -1,17 +1,17 @@
-[gd_scene format=4 uid="uid://byf5bu7t88jji"]
+[gd_scene format=4 uid="uid://sfxikg8j0i41"]
 
-[ext_resource type="Texture2D" uid="uid://jhsstde31j3g" path="res://levels/assets/messy_room_door_tiles (1).png" id="1_syi66"]
-[ext_resource type="Texture2D" uid="uid://cvvbk2k26qaob" path="res://levels/assets/post apoc hatches and doors set updated.png" id="2_gjah5"]
-[ext_resource type="Texture2D" uid="uid://d2ceppqjevl1t" path="res://levels/assets/post apoc office furniture set updated (1).png" id="3_3hr1r"]
-[ext_resource type="Texture2D" uid="uid://p2grjsgig10m" path="res://levels/assets/messy furniture set updated v2 (1).png" id="4_o2d4q"]
-[ext_resource type="Texture2D" uid="uid://kd27yi711pwn" path="res://levels/assets/canned food and drink updated.png" id="5_rfur0"]
-[ext_resource type="Texture2D" uid="uid://cpn5eoqaks617" path="res://levels/assets/post apoc shelter furniture set updated.png" id="6_suna8"]
-[ext_resource type="Texture2D" uid="uid://dldrgt8c477ls" path="res://levels/assets/post apoc toxic wasteland set updated.png" id="7_4gtq2"]
-[ext_resource type="Texture2D" uid="uid://brsvpvmkfcw7d" path="res://levels/assets/PostApoc_Workshop_Icons.png" id="8_wkh34"]
-[ext_resource type="Texture2D" uid="uid://c3tus1iy2yoq2" path="res://levels/assets/PostApoc_Workshop_Icons_WhiteOL.png" id="9_7se7w"]
+[ext_resource type="Texture2D" uid="uid://jhsstde31j3g" path="res://levels/assets/messy_room_door_tiles (1).png" id="1_g4i43"]
+[ext_resource type="Texture2D" uid="uid://p2grjsgig10m" path="res://levels/assets/messy furniture set updated v2 (1).png" id="2_3yrbn"]
+[ext_resource type="Texture2D" uid="uid://cvvbk2k26qaob" path="res://levels/assets/post apoc hatches and doors set updated.png" id="3_y2h7w"]
+[ext_resource type="Texture2D" uid="uid://d2ceppqjevl1t" path="res://levels/assets/post apoc office furniture set updated (1).png" id="4_lds4o"]
+[ext_resource type="Texture2D" uid="uid://kd27yi711pwn" path="res://levels/assets/canned food and drink updated.png" id="5_4qgmk"]
+[ext_resource type="Texture2D" uid="uid://cpn5eoqaks617" path="res://levels/assets/post apoc shelter furniture set updated.png" id="6_to41i"]
+[ext_resource type="Texture2D" uid="uid://dldrgt8c477ls" path="res://levels/assets/post apoc toxic wasteland set updated.png" id="7_46eai"]
+[ext_resource type="Texture2D" uid="uid://brsvpvmkfcw7d" path="res://levels/assets/PostApoc_Workshop_Icons.png" id="8_78cck"]
+[ext_resource type="Texture2D" uid="uid://c3tus1iy2yoq2" path="res://levels/assets/PostApoc_Workshop_Icons_WhiteOL.png" id="9_gn12q"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lljhr"]
-texture = ExtResource("1_syi66")
+texture = ExtResource("1_g4i43")
 3:1/0 = 0
 6:1/0 = 0
 7:1/0 = 0
@@ -330,7 +330,7 @@ texture = ExtResource("1_syi66")
 18:22/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cfx6m"]
-texture = ExtResource("4_o2d4q")
+texture = ExtResource("2_3yrbn")
 8:0/0 = 0
 9:0/0 = 0
 0:1/0 = 0
@@ -798,7 +798,7 @@ polygon = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 polygon = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nmjuo"]
-texture = ExtResource("1_syi66")
+texture = ExtResource("1_g4i43")
 3:1/0 = 0
 3:1/0/occlusion_layer_0/polygon_0/polygon = SubResource("OccluderPolygon2D_gjah5")
 6:1/0 = 0
@@ -1367,7 +1367,7 @@ texture = ExtResource("1_syi66")
 18:22/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ymbce"]
-texture = ExtResource("2_gjah5")
+texture = ExtResource("3_y2h7w")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -1870,7 +1870,7 @@ sources/0 = SubResource("TileSetAtlasSource_nmjuo")
 sources/1 = SubResource("TileSetAtlasSource_ymbce")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2nnrt"]
-texture = ExtResource("2_gjah5")
+texture = ExtResource("3_y2h7w")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -2371,7 +2371,7 @@ texture = ExtResource("2_gjah5")
 sources/0 = SubResource("TileSetAtlasSource_2nnrt")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bhcbo"]
-texture = ExtResource("3_3hr1r")
+texture = ExtResource("4_lds4o")
 18:0/0 = 0
 0:1/0 = 0
 2:1/0 = 0
@@ -2747,7 +2747,7 @@ texture = ExtResource("3_3hr1r")
 17:27/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bv7h5"]
-texture = ExtResource("4_o2d4q")
+texture = ExtResource("2_3yrbn")
 8:0/0 = 0
 9:0/0 = 0
 0:1/0 = 0
@@ -3130,7 +3130,7 @@ sources/0 = SubResource("TileSetAtlasSource_bhcbo")
 sources/1 = SubResource("TileSetAtlasSource_bv7h5")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_si0e6"]
-texture = ExtResource("3_3hr1r")
+texture = ExtResource("4_lds4o")
 18:0/0 = 0
 0:1/0 = 0
 2:1/0 = 0
@@ -3509,7 +3509,7 @@ texture = ExtResource("3_3hr1r")
 sources/0 = SubResource("TileSetAtlasSource_si0e6")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vsdvu"]
-texture = ExtResource("4_o2d4q")
+texture = ExtResource("2_3yrbn")
 8:0/0 = 0
 9:0/0 = 0
 0:1/0 = 0
@@ -3891,7 +3891,7 @@ texture = ExtResource("4_o2d4q")
 sources/0 = SubResource("TileSetAtlasSource_vsdvu")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8lp8v"]
-texture = ExtResource("4_o2d4q")
+texture = ExtResource("2_3yrbn")
 8:0/0 = 0
 9:0/0 = 0
 0:1/0 = 0
@@ -4273,7 +4273,7 @@ texture = ExtResource("4_o2d4q")
 sources/0 = SubResource("TileSetAtlasSource_8lp8v")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_iscji"]
-texture = ExtResource("5_rfur0")
+texture = ExtResource("5_4qgmk")
 18:0/0 = 0
 19:0/0 = 0
 20:0/0 = 0
@@ -4596,7 +4596,7 @@ texture = ExtResource("5_rfur0")
 sources/0 = SubResource("TileSetAtlasSource_iscji")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gk07n"]
-texture = ExtResource("6_suna8")
+texture = ExtResource("6_to41i")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -5179,7 +5179,7 @@ texture = ExtResource("6_suna8")
 sources/0 = SubResource("TileSetAtlasSource_gk07n")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_i6edv"]
-texture = ExtResource("7_4gtq2")
+texture = ExtResource("7_46eai")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -5751,7 +5751,7 @@ texture = ExtResource("7_4gtq2")
 sources/0 = SubResource("TileSetAtlasSource_i6edv")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ke3at"]
-texture = ExtResource("8_wkh34")
+texture = ExtResource("8_78cck")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -5859,7 +5859,7 @@ texture = ExtResource("8_wkh34")
 sources/0 = SubResource("TileSetAtlasSource_ke3at")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ke4ue"]
-texture = ExtResource("9_7se7w")
+texture = ExtResource("9_gn12q")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -6084,7 +6084,6 @@ position = Vector2(-120.00001, 216)
 scale = Vector2(3.4431248, 3.4431248)
 energy = 0.7
 range_item_cull_mask = 2
-shadow_enabled = true
 texture = SubResource("GradientTexture2D_xtcfv")
 
 [node name="HRarchive_Table_lantern_light2" type="PointLight2D" parent="." unique_id=327539012]
@@ -6092,7 +6091,6 @@ position = Vector2(-167, -503)
 scale = Vector2(3.4431248, 3.4431248)
 energy = 0.7
 range_item_cull_mask = 2
-shadow_enabled = true
 texture = SubResource("GradientTexture2D_xtcfv")
 
 [node name="Obs_Interactable_note_light" type="PointLight2D" parent="." unique_id=1705529511]
@@ -6101,7 +6099,6 @@ position = Vector2(23, 183)
 scale = Vector2(0.7592187, 0.7592187)
 energy = 0.8
 range_item_cull_mask = 2
-shadow_enabled = true
 texture = SubResource("GradientTexture2D_xtcfv")
 
 [node name="Obs_Interactable_saw_light" type="PointLight2D" parent="." unique_id=394727532]
@@ -6110,7 +6107,6 @@ position = Vector2(-25, 40)
 scale = Vector2(0.7592187, 0.7592187)
 energy = 0.8
 range_item_cull_mask = 2
-shadow_enabled = true
 texture = SubResource("GradientTexture2D_xtcfv")
 
 [node name="HRarchive_Interactable_file_light" type="PointLight2D" parent="." unique_id=1211332759]
@@ -6119,7 +6115,6 @@ position = Vector2(55, -456)
 scale = Vector2(0.7592187, 0.7592187)
 energy = 0.8
 range_item_cull_mask = 2
-shadow_enabled = true
 texture = SubResource("GradientTexture2D_xtcfv")
 
 [node name="Obs_Couch_side_lantern_light" type="PointLight2D" parent="." unique_id=302425094]
@@ -6128,7 +6123,6 @@ position = Vector2(56.000023, 131)
 scale = Vector2(2.619492, 2.619492)
 energy = 0.7
 range_item_cull_mask = 2
-shadow_enabled = true
 texture = SubResource("GradientTexture2D_xtcfv")
 
 [node name="Obs_Screen_light" type="PointLight2D" parent="." unique_id=828140307]
@@ -6137,7 +6131,6 @@ position = Vector2(-112, 123.00001)
 scale = Vector2(0.62499994, 0.40625)
 energy = 0.6
 range_item_cull_mask = 2
-shadow_enabled = true
 texture = SubResource("GradientTexture2D_vadb7")
 
 [node name="Obs_Reading_table_lantern_light" type="PointLight2D" parent="." unique_id=377983266]
@@ -6146,7 +6139,6 @@ position = Vector2(-199.00002, 84.00001)
 scale = Vector2(2.671789, 2.671789)
 energy = 0.7
 range_item_cull_mask = 2
-shadow_enabled = true
 texture = SubResource("GradientTexture2D_xtcfv")
 
 [node name="Obs_Wall_light" type="PointLight2D" parent="." unique_id=338669228]
@@ -6165,7 +6157,6 @@ position = Vector2(-202, -392)
 scale = Vector2(4.7333875, 4.7333875)
 energy = 0.7
 range_item_cull_mask = 2
-shadow_enabled = true
 texture = SubResource("GradientTexture2D_xtcfv")
 
 [node name="HRarchive_Wall_light2" type="PointLight2D" parent="." unique_id=444873746]
@@ -6183,5 +6174,4 @@ light_mask = 2
 position = Vector2(33, 7)
 scale = Vector2(0.6875, 1.2656251)
 energy = 0.46
-shadow_enabled = true
 texture = SubResource("GradientTexture2D_ekyve")
