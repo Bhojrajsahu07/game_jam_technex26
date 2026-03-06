@@ -9073,6 +9073,7 @@ color = Color(0.3530627, 0.3530626, 0.35306257, 1)
 [node name="PointLight2D" type="PointLight2D" parent="." unique_id=1619284794]
 position = Vector2(105, -86)
 scale = Vector2(5.6875, 5.6875)
+color = Color(0.84313726, 0.7411765, 0.43529412, 1)
 energy = 0.6
 shadow_enabled = true
 texture = SubResource("GradientTexture2D_smvi3")
@@ -9080,6 +9081,7 @@ texture = SubResource("GradientTexture2D_smvi3")
 [node name="PointLight2D12" type="PointLight2D" parent="." unique_id=2072962888]
 position = Vector2(311, -85)
 scale = Vector2(5.6875, 5.6875)
+color = Color(0.8235294, 0.7254902, 0.42745098, 1)
 energy = 0.6
 shadow_enabled = true
 texture = SubResource("GradientTexture2D_smvi3")
@@ -9087,13 +9089,15 @@ texture = SubResource("GradientTexture2D_smvi3")
 [node name="PointLight2D13" type="PointLight2D" parent="." unique_id=1318434801]
 position = Vector2(312, -347)
 scale = Vector2(5.6875, 5.6875)
+color = Color(0.7607843, 0.62352943, 0.28235295, 1)
 energy = 0.6
 shadow_enabled = true
 texture = SubResource("GradientTexture2D_smvi3")
 
 [node name="PointLight2D14" type="PointLight2D" parent="." unique_id=152210375]
-position = Vector2(100, -342)
+position = Vector2(104.00001, -340)
 scale = Vector2(5.6875, 5.6875)
+color = Color(0.7176471, 0.5686275, 0.24313726, 1)
 energy = 0.6
 shadow_enabled = true
 texture = SubResource("GradientTexture2D_smvi3")
@@ -9101,6 +9105,7 @@ texture = SubResource("GradientTexture2D_smvi3")
 [node name="PointLight2D2" type="PointLight2D" parent="." unique_id=31559918]
 position = Vector2(568, -37.000004)
 scale = Vector2(5.6875, 5.6875)
+color = Color(0.9098039, 0.7294118, 0.3372549, 1)
 energy = 0.5
 shadow_enabled = true
 shadow_filter_smooth = 16.0
@@ -9109,6 +9114,7 @@ texture = SubResource("GradientTexture2D_smvi3")
 [node name="PointLight2D3" type="PointLight2D" parent="." unique_id=1101508898]
 position = Vector2(569, -181)
 scale = Vector2(5.6875, 5.6875)
+color = Color(0.7176471, 0.5686275, 0.24313726, 1)
 energy = 0.5
 shadow_enabled = true
 shadow_filter_smooth = 15.5
@@ -9117,6 +9123,7 @@ texture = SubResource("GradientTexture2D_smvi3")
 [node name="PointLight2D4" type="PointLight2D" parent="." unique_id=175733915]
 position = Vector2(575, -478)
 scale = Vector2(7.328125, 7.328125)
+color = Color(0.9843137, 0.9529412, 0.9254902, 1)
 energy = 0.7
 shadow_enabled = true
 shadow_filter_smooth = 15.0
@@ -9125,6 +9132,7 @@ texture = SubResource("GradientTexture2D_smvi3")
 [node name="PointLight2D5" type="PointLight2D" parent="." unique_id=1836744272]
 position = Vector2(535, -583.00006)
 scale = Vector2(5.6875, 5.6875)
+color = Color(0.92941177, 0.8156863, 0.47843137, 1)
 energy = 0.7
 shadow_enabled = true
 shadow_filter_smooth = 15.5
@@ -9133,6 +9141,7 @@ texture = SubResource("GradientTexture2D_smvi3")
 [node name="PointLight2D6" type="PointLight2D" parent="." unique_id=919701226]
 position = Vector2(49.000004, -575)
 scale = Vector2(5.6875, 5.6875)
+color = Color(0.84313726, 0.79607844, 0.75686276, 1)
 energy = 0.7
 shadow_enabled = true
 shadow_filter_smooth = 15.5
@@ -9141,6 +9150,7 @@ texture = SubResource("GradientTexture2D_smvi3")
 [node name="PointLight2D7" type="PointLight2D" parent="." unique_id=1451756138]
 position = Vector2(3, -200)
 scale = Vector2(9.59375, 9.59375)
+color = Color(0.98039216, 0.90588236, 0.7019608, 1)
 energy = 0.5
 shadow_enabled = true
 shadow_filter_smooth = 15.0
