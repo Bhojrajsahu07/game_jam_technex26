@@ -42,7 +42,7 @@ func update_animation(dir: Vector2):
 func update_interact_ray(dir: Vector2):
 	# If we are moving, point the raycast 20 pixels in that direction
 	if dir != Vector2.ZERO:
-		interact_ray.target_position = dir.normalized() * 15
+		interact_ray.target_position = dir.normalized() * 50
 
 func try_interact():
 	# If the raycast is touching a physics body/area

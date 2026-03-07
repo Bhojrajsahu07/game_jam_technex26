@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://cs2ut18ixdn3o"]
+
+[ext_resource type="Texture2D" uid="uid://dapfybco2riux" path="res://levels/assets/PostApoc_Workshop_WithShadow.png" id="1_li7rl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rd6u4"]
+atlas = ExtResource("1_li7rl")
+region = Rect2(192, 320, 32, 64)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wqyxr"]
+size = Vector2(30, 61)
+
+[sub_resource type="Gradient" id="Gradient_1ilxv"]
+offsets = PackedFloat32Array(0.051056337, 1)
+colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_dcd5s"]
+gradient = SubResource("Gradient_1ilxv")
+fill = 2
+fill_from = Vector2(0.5, 0.5)
+
+[node name="BoardedWayHr" type="Node2D" unique_id=1644932376]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1062009497]
+collision_layer = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D" unique_id=1274743130]
+texture = SubResource("AtlasTexture_rd6u4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=97443758]
+position = Vector2(0, 0.5)
+shape = SubResource("RectangleShape2D_wqyxr")
+
+[node name="PointLight2D" type="PointLight2D" parent="StaticBody2D" unique_id=89738504]
+position = Vector2(0, -5.9604645e-08)
+scale = Vector2(0.578125, 1.015625)
+energy = 0.7
+shadow_enabled = true
+texture = SubResource("GradientTexture2D_dcd5s")

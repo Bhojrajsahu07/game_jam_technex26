@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://ma4ibpkr100e"]
+
+[ext_resource type="Texture2D" uid="uid://c3tus1iy2yoq2" path="res://levels/assets/PostApoc_Workshop_Icons_WhiteOL.png" id="1_dhorm"]
+[ext_resource type="Script" uid="uid://cb573pfrqy4qo" path="res://levels/Floor_4/Interactables/crushed_paper.gd" id="1_x6d3r"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x6d3r"]
+atlas = ExtResource("1_dhorm")
+region = Rect2(160, 112, 16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_26t8n"]
+size = Vector2(14, 12)
+
+[sub_resource type="Gradient" id="Gradient_1sifw"]
+offsets = PackedFloat32Array(0, 0.6883803)
+colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_npvlj"]
+gradient = SubResource("Gradient_1sifw")
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+
+[node name="CrushedPaper" type="Node2D" unique_id=574548413]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=506575284]
+collision_layer = 3
+script = ExtResource("1_x6d3r")
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D" unique_id=205523651]
+texture = SubResource("AtlasTexture_x6d3r")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1954446327]
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_26t8n")
+
+[node name="PointLight2D" type="PointLight2D" parent="StaticBody2D" unique_id=102826132]
+scale = Vector2(0.609375, 0.609375)
+shadow_enabled = true
+texture = SubResource("GradientTexture2D_npvlj")
