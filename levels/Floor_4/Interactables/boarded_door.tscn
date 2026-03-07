@@ -1,0 +1,81 @@
+[gd_scene format=3 uid="uid://cuqopgshtn0gc"]
+
+[ext_resource type="Script" uid="uid://bm1dw8kul0lcd" path="res://levels/Floor_4/Interactables/boarded_door.gd" id="1_apa3i"]
+[ext_resource type="Texture2D" uid="uid://jhsstde31j3g" path="res://levels/assets/messy_room_door_tiles (1).png" id="1_horo2"]
+[ext_resource type="Texture2D" uid="uid://dapfybco2riux" path="res://levels/assets/PostApoc_Workshop_WithShadow.png" id="2_jokdp"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8fqm5"]
+atlas = ExtResource("1_horo2")
+region = Rect2(192, 288, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1v4pr"]
+atlas = ExtResource("1_horo2")
+region = Rect2(96, 224, 32, 8)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_s1wmc"]
+size = Vector2(38, 68)
+
+[sub_resource type="Gradient" id="Gradient_01qjk"]
+offsets = PackedFloat32Array(0, 0.99473685)
+colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_j4v2x"]
+gradient = SubResource("Gradient_01qjk")
+fill = 2
+fill_from = Vector2(0.5, 0.5)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_supoe"]
+atlas = ExtResource("2_jokdp")
+region = Rect2(32, 288, 16, 32)
+
+[node name="boarded_door" type="Node2D" unique_id=138251018]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1285807669]
+collision_layer = 3
+script = ExtResource("1_apa3i")
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D" unique_id=1827379700]
+texture = SubResource("AtlasTexture_8fqm5")
+
+[node name="Sprite2D2" type="Sprite2D" parent="StaticBody2D" unique_id=409883132]
+position = Vector2(0, -28)
+texture = SubResource("AtlasTexture_1v4pr")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=751869372]
+position = Vector2(-2, 1)
+shape = SubResource("RectangleShape2D_s1wmc")
+
+[node name="PointLight2D" type="PointLight2D" parent="StaticBody2D" unique_id=561746026]
+position = Vector2(0, -4.7683716e-07)
+scale = Vector2(0.890625, 1.15625)
+texture = SubResource("GradientTexture2D_j4v2x")
+
+[node name="Sprite2D3" type="Sprite2D" parent="StaticBody2D" unique_id=1884804711]
+position = Vector2(-8, -11)
+rotation = 1.5710676
+texture = SubResource("AtlasTexture_supoe")
+
+[node name="Sprite2D4" type="Sprite2D" parent="StaticBody2D" unique_id=944902764]
+position = Vector2(3, -2)
+rotation = 1.5710676
+texture = SubResource("AtlasTexture_supoe")
+
+[node name="Sprite2D5" type="Sprite2D" parent="StaticBody2D" unique_id=99191078]
+position = Vector2(-7, 9)
+rotation = 1.5710676
+texture = SubResource("AtlasTexture_supoe")
+
+[node name="Sprite2D6" type="Sprite2D" parent="StaticBody2D" unique_id=259426199]
+position = Vector2(5, 14)
+rotation = 1.5710676
+texture = SubResource("AtlasTexture_supoe")
+
+[node name="Sprite2D7" type="Sprite2D" parent="StaticBody2D" unique_id=333140617]
+position = Vector2(6, 22)
+rotation = 1.5710676
+texture = SubResource("AtlasTexture_supoe")
+
+[node name="Sprite2D8" type="Sprite2D" parent="StaticBody2D" unique_id=1463076958]
+position = Vector2(-11, 18)
+rotation = 1.5710676
+texture = SubResource("AtlasTexture_supoe")

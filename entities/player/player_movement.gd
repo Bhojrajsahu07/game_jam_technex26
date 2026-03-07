@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-const SPEED = 150.0
+const SPEED = 100.0
 
 # Grab references to our child nodes
 @onready var anim = $AnimatedSprite2D
@@ -42,7 +42,7 @@ func update_animation(dir: Vector2):
 func update_interact_ray(dir: Vector2):
 	# If we are moving, point the raycast 20 pixels in that direction
 	if dir != Vector2.ZERO:
-		interact_ray.target_position = dir.normalized() * 20
+		interact_ray.target_position = dir.normalized() * 15
 
 func try_interact():
 	# If the raycast is touching a physics body/area
