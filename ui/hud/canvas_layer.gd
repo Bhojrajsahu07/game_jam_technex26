@@ -8,7 +8,7 @@ func _ready():
 	interaction_label.modulate.a = 0
 	
 	# 2. Tell the HUD to listen to the SignalBus for any incoming messages
-	SignalBus.display_interaction_text.connect(_on_display_interaction_text)
+	#SignalBus.display_interaction_text.connect(_on_display_interaction_text)
 
 func _on_display_interaction_text(message: String):
 	# Change the label's text to whatever the Saw or Door sent

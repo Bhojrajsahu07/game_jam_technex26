@@ -19,6 +19,7 @@ config/icon="res://icon.svg"
 
 GameManager="*uid://cy86ticqrit8d"
 SignalBus="*uid://8qv8llvcaqaw"
+DialogueUI="*uid://c4te5et6tdc0b"
 
 [input]
 

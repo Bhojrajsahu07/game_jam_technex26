@@ -10,5 +10,5 @@ func on_interact():
 		
 	else:
 		# If they interact WITHOUT the hammer
-		SignalBus.display_interaction_text.emit("The way is obstructed!...seems i need a tool....a hammer maybe!")
+		SignalBus.display_interaction_text.emit("The way is obstructed!...seems i need a tool....a hammer maybe!",GameManager.PLAYER_FACE)
 		

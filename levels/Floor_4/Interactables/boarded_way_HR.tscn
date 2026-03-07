@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://cs2ut18ixdn3o"]
 
 [ext_resource type="Texture2D" uid="uid://dapfybco2riux" path="res://levels/assets/PostApoc_Workshop_WithShadow.png" id="1_li7rl"]
+[ext_resource type="Script" uid="uid://4wmf48oe7xxy" path="res://levels/Floor_4/Interactables/boarded_way_HR.gd" id="1_rd6u4"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rd6u4"]
 atlas = ExtResource("1_li7rl")
@@ -22,6 +23,7 @@ fill_from = Vector2(0.5, 0.5)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1062009497]
 collision_layer = 3
+script = ExtResource("1_rd6u4")
 
 [node name="Sprite2D" type="Sprite2D" parent="StaticBody2D" unique_id=1274743130]
 texture = SubResource("AtlasTexture_rd6u4")

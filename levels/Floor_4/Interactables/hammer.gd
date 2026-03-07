@@ -5,7 +5,7 @@ func on_interact():
 	GameManager.has_hammer = true
 	
 	# 2. Tell the UI to pop up the text
-	SignalBus.display_interaction_text.emit("Picked up the hammer!")
-	SignalBus.display_interaction_text.emit("Might be useful somewhere but seems weak would work once!")
+	SignalBus.display_interaction_text.emit("Picked up the hammer!",null)
+	SignalBus.display_interaction_text.emit("Might be useful somewhere but seems weak would work once!",GameManager.PLAYER_FACE)
 	# 3. Delete the saw (This instantly deletes the Sprite, Collision, AND Light!)
 	queue_free()

@@ -1,12 +1,22 @@
 extends StaticBody2D
 
 func on_interact():
-	# 1. Update the inventory in your Game Manager
-	GameManager.has_note_obs_room_4 = true
+	GameManager.has_crushed_paper = true
 	
-	# 2. Tell the UI to pop up the text
-	SignalBus.display_interaction_text.emit("Picked up the note!")
-	SignalBus.display_interaction_text.emit("You shouldn't have found this!")
+	# Look at this beautiful data structure!
+	var pages = [
+		{
+			"text": "Picked up the note!", 
+			"face": null # No portrait for this page
+		},
+		{
+			"text": "What!...The Note says\n You shouldn't have found this!", 
+			"face": GameManager.PLAYER_FACE # Pop the portrait up for this page!
+		}
+	]
 	
-	# 3. Delete the note (This instantly deletes the Sprite, Collision, AND Light!)
+	# Send our dictionary array to the UI!
+	SignalBus.display_interaction_text.emit(pages, null)
+	
 	queue_free()
+	
