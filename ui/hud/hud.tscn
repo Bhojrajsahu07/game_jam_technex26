@@ -1,3 +1,15 @@
 [gd_scene format=3 uid="uid://6xfpw0wagci3"]
 
+[ext_resource type="Script" uid="uid://dsbbsj4lc13gq" path="res://ui/hud/canvas_layer.gd" id="1_xmswo"]
+
 [node name="Hud" type="Node2D" unique_id=779438215]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=381459504]
+script = ExtResource("1_xmswo")
+
+[node name="InteractionLabel" type="Label" parent="CanvasLayer" unique_id=1851015248]
+anchors_preset = -1
+anchor_right = 0.035
+offset_right = -0.3199997
+offset_bottom = 23.0
+text = "Test Message"

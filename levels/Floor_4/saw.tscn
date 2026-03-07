@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://cgmaaxkeesa0b"]
+
+[ext_resource type="Texture2D" uid="uid://c3tus1iy2yoq2" path="res://levels/assets/PostApoc_Workshop_Icons_WhiteOL.png" id="1_1inna"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_osksu"]
+atlas = ExtResource("1_1inna")
+region = Rect2(96, 0, 16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ch408"]
+size = Vector2(14, 16)
+
+[sub_resource type="Gradient" id="Gradient_wxr6k"]
+offsets = PackedFloat32Array(0, 0.6706731)
+colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_rfwis"]
+gradient = SubResource("Gradient_wxr6k")
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+
+[node name="saw" type="Node2D" unique_id=888120492]
+
+[node name="Saw" type="StaticBody2D" parent="." unique_id=609839951]
+
+[node name="Sprite2D" type="Sprite2D" parent="Saw" unique_id=1913079132]
+texture = SubResource("AtlasTexture_osksu")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Saw" unique_id=2113979767]
+shape = SubResource("RectangleShape2D_ch408")
+
+[node name="PointLight2D" type="PointLight2D" parent="Saw" unique_id=954841606]
+position = Vector2(-4.7683716e-07, 4.7683716e-07)
+scale = Vector2(0.640625, 0.640625)
+energy = 0.7
+shadow_enabled = true
+texture = SubResource("GradientTexture2D_rfwis")
